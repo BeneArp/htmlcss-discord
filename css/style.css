@@ -115,16 +115,20 @@ header section{
 
 .img{
     width: 30%;
+    text-align: center;
     /* debug */
-    height: 550px;
-    background-color:rgb(30 144 255);
 }
 
 .description{
-    width: 20%;
-    /* debug */
-    height: 550px;
-    background-color: rgb(255 192 203);
+    width: 14%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.description h2{
+    font-size: 38px;
+    margin-bottom: 25px;
+    line-height: 40px;
 }
 
 .bg_grey{
