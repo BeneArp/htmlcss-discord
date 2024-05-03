@@ -61,7 +61,7 @@ header nav{
 }
 
 .bottone_blue{
-    background-color: rgb(142 161 225);
+    background-color: #5865f2;
 }
 
 
@@ -178,7 +178,7 @@ footer{
 }
 
 #social h3{
-    color: rgb(114 137 218);
+    color: #5865f2;
     margin-bottom: 15px;
 }
 
@@ -201,8 +201,9 @@ footer{
 }
 
 .info strong{
-    color: rgb(114 137 218);
+    color: #5865f2;
 }
+
 
 .info a{
     display: block;
