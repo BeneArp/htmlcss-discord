@@ -171,11 +171,37 @@ footer nav{
     display: flex;
 }
 
+#lingua img{
+    height: 15px;
+    list-style: 15px;
+    vertical-align: middle;
+}
+
+#lingua span{
+    font-size: 13px;
+}
+
+.fa-angle-down{
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+#social h3{
+    color: rgb(114 137 218);
+    margin-bottom: 15px;
+}
+
 #social{
     width: 40%;
-    /* debug */
-    height: 500px;
-    background-color:rgb(240 128 128);
+    color: white;
+}
+
+#icone i{
+    margin: 20px 10px;
+}
+
+.fa-twitter{
+    margin-left: 0 !important;
 }
 
 .info{
