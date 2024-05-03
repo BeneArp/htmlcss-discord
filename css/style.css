@@ -160,15 +160,6 @@ section h2{
 footer{
     padding: 40px 0;
     background-color:rgb(35 39 42);
-    /* debug */
-    height: 730px;
-}
-
-footer nav{
-    padding-bottom: 30px;
-    border-bottom: 3px solid #5865f2;
-    /* flexbox */
-    display: flex;
 }
 
 #lingua img{
@@ -206,10 +197,16 @@ footer nav{
 
 .info{
     width: 20%;
-    /* debug */
-    height: 500px;
-    background-color:rgb(32 178 170);
-    border: 2px solid black;
+    font-size: 15px;
+}
+
+.info strong{
+    color: rgb(114 137 218);
+}
+
+.info a{
+    display: block;
+    margin-top: 6px;
 }
 
 footer section{
@@ -219,14 +216,17 @@ footer section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    background-color:rgb(127 255 212);
+}
+
+footer nav{
+    padding-bottom: 30px;
+    border-bottom: 3px solid #5865f2;
+    /* flexbox */
+    display: flex;
 }
 
 .logo{
-    /* debug */
     width: 20%;
     padding-top: 10px;
-    font-size: 16px
 }
 
