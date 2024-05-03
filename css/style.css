@@ -140,6 +140,10 @@ section h2{
     padding: 40px 0;
 }
 
+#download img{
+    height: 800px;
+}
+
 
 .stars{
     background-image: url('../img/stars.svg');
