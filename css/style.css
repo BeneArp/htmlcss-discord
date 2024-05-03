@@ -96,6 +96,13 @@ header section{
     margin-bottom: 30px;
 }
 
+/* freccia download */
+.fa-arrow-down-long{
+    font-size: 14px;
+    vertical-align: middle;
+    height: 17px;
+}
+
 /* formattazione main pagina */
 .finestra{
     /* flexbox */
