@@ -14,12 +14,17 @@ body{
     margin: auto;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 /* formattazione header */
 header nav{
     height: 80px;
     padding-top: 10px;
     /* debug */
-    background-color: rgb(173 216 230);
+    background-color: rgb(49 97 224);
 }
 
 #menu{
@@ -28,21 +33,27 @@ header nav{
     align-items: center;
     /* debug */
     height: 60px;
-    background-color:rgb(218 165 32);
 }
 
-#menu div{
-    /* debug */
-    border: 2px solid black;
-}
 
 #login{
+    width: 20%;
     text-align: right;
 }
 
-.icone{
-    width: 20%;
+.bottone{
+    /* debug */
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
 }
+
+
+.bottone_white_bg{
+    color: black;
+    background-color: white;
+}
+
 
 #voci{
     width: 60%;
@@ -50,6 +61,7 @@ header nav{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 
 header section{
@@ -150,15 +162,7 @@ footer section{
 
 .logo{
     /* debug */
-    background-color: red;
-    height: 50px;
-    width: 100px;
-}
-
-.botton{
-      /* debug */
-      background-color: red;
-      height: 50px;
-      width: 100px;
+    width: 20%;
+    padding-top: 10px;
 }
 
