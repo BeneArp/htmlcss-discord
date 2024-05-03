@@ -121,7 +121,7 @@ header section{
 
 .description{
     width: 14%;
-    margin-left: 50px;
+    margin: 0 50px;
     margin-bottom: 30px;
 }
 
