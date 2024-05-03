@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 /* formattazione generale */
+body{
+    font-family: "Poppins", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .dimensioni{
     width: 50%;
     margin: auto;
