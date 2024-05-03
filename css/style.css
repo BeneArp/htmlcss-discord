@@ -57,8 +57,11 @@ header nav{
 #bottone_black{
     background-color: black;
     color: white;
-    margin-left: 20px;
-    
+    margin-left: 20px;  
+}
+
+.bottone_blue{
+    background-color: rgb(142 161 225);
 }
 
 
@@ -84,7 +87,6 @@ header section{
     margin: 80px auto;
     color: white;
     text-align: center;
-    /* debug */
 }
 
 .panoramica h1{
@@ -123,7 +125,7 @@ header section{
     margin-bottom: 30px;
 }
 
-.description h2{
+section h2{
     font-size: 38px;
     margin-bottom: 25px;
     line-height: 40px;
@@ -134,14 +136,24 @@ header section{
 }
 
 #download{
-    /* debug */
-    background-color:rgb(34 139 34);
-    height: 1100px;
-
+    text-align: center;
+    padding: 40px 0;
 }
 
-.padding{
-    padding: 40px 0;
+
+.stars{
+    background-image: url('../img/stars.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.stars h3{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.stars button{
+    margin-bottom: 40px;
 }
 
 /* formattazione footer */
