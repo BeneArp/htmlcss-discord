@@ -1,0 +1,240 @@
+/* azzeramento parametri */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* formattazione generale */
+body{
+    font-family: "Poppins", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px
+}
+
+.dimensioni{
+    width: 50%;
+    margin: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* formattazione header */
+header nav{
+    height: 80px;
+    padding-top: 10px;
+    background-color: rgb(37 94 233);
+}
+
+#menu{
+    /* flexbox */
+    display: flex;
+    align-items: center;
+}
+
+
+#login{
+    width: 20%;
+    text-align: right;
+}
+
+#voci{
+    width: 60%;
+    /* flexboox */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+header section{
+    padding: 50px 0 100px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    max-height: fit-content;
+}
+
+.panoramica{
+    width: 40%;
+    margin: 80px auto;
+    color: white;
+    text-align: center;
+}
+
+.panoramica h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.panoramica p{
+    margin-bottom: 30px;
+}
+
+/* formattazione bottoni */
+.bottone{
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+
+
+.bottone_white{
+    color: black;
+}
+
+#bottone_black{
+    background-color: black;
+    color: white;
+    margin-left: 20px;  
+}
+
+.bottone_blue{
+    background-color: #5865f2;
+}
+
+/* freccia download */
+.fa-arrow-down-long{
+    font-size: 14px;
+    vertical-align: middle;
+    height: 17px;
+}
+
+/* formattazione main pagina */
+.finestra{
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.img{
+    max-width: 40%;
+    text-align: center;
+}
+.img img{
+    max-width: 100%;
+}
+
+.description{
+    max-width: 14%;
+    margin: 0 50px;
+    margin-bottom: 30px;
+}
+
+section h2{
+    font-size: 38px;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+
+.bg_grey{
+    background-color:rgb(246 246 246);
+}
+
+/* formattazione quarta sezione */
+#download{
+    text-align: center;
+    padding: 40px 0;
+}
+
+#download img{
+    height: 600px;
+    max-width: 100%;
+}
+
+
+.stars{
+    background-image: url('../img/stars.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.stars h3{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.stars button{
+    margin-bottom: 40px;
+}
+
+/* formattazione footer */
+footer{
+    padding: 40px 0;
+    background-color:rgb(35 39 42);
+}
+
+#lingua img{
+    height: 15px;
+    list-style: 15px;
+    vertical-align: middle;
+}
+
+#lingua span{
+    font-size: 13px;
+}
+
+.fa-angle-down{
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+#social h3{
+    color: #5865f2;
+    margin-bottom: 15px;
+}
+
+#social{
+    width: 40%;
+    color: white;
+}
+
+#icone i{
+    margin: 20px 10px;
+}
+
+.fa-twitter{
+    margin-left: 0 !important;
+}
+
+/* formattazione colonne informazioni */
+.info{
+    width: 20%;
+    font-size: 15px;
+}
+
+.info strong{
+    color: #5865f2;
+}
+
+
+.info a{
+    display: block;
+    margin-top: 6px;
+}
+
+footer section{
+    margin-top: 20px !important;
+    height: 80px;
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav{
+    padding-bottom: 30px;
+    border-bottom: 3px solid #5865f2;
+    /* flexbox */
+    display: flex;
+}
+
+.logo{
+    width: 20%;
+    padding-top: 10px;
+}
+
