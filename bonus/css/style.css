@@ -119,6 +119,10 @@ header section{
     text-decoration: none;
 }
 
+.registrazione:hover{
+    background-color: #7881e9;
+}
+
 /* freccia download */
 .fa-arrow-down-long{
     font-size: 14px;
