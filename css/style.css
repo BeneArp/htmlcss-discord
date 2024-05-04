@@ -141,8 +141,9 @@ section h2{
 }
 
 #download img{
-    height: 800px;
-    max-height: 800px;
+    text-align: center;
+    height: 600px;
+    max-width: 100%;
 }
 
 
