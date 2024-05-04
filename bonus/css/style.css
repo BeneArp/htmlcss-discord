@@ -20,6 +20,11 @@ a{
     text-decoration: none;
 }
 
+/* effetti link */
+a:hover{
+    text-decoration: underline;
+}
+
 /* formattazione header */
 header nav{
     height: 80px;
@@ -85,7 +90,7 @@ header section{
     color: black;
 }
 
-#bottone_black{
+.bottone_black{
     background-color: black;
     color: white;
     margin-left: 20px;  
@@ -93,6 +98,25 @@ header section{
 
 .bottone_blue{
     background-color: #5865f2;
+}
+
+/* effetti bottoni */
+.bottone:hover{
+    box-shadow: 0 5px 5px rgba(24, 23, 23, 0.322);
+}
+
+.bottone_white:hover{
+    color:#5865f2;
+    text-decoration: none;
+}
+
+.bottone_black:hover{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.bottone_blue:hover{
+    text-decoration: none;
 }
 
 /* freccia download */
