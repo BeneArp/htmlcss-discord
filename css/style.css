@@ -135,13 +135,13 @@ section h2{
     background-color:rgb(246 246 246);
 }
 
+/* formattazione quarta sezione */
 #download{
     text-align: center;
     padding: 40px 0;
 }
 
 #download img{
-    text-align: center;
     height: 600px;
     max-width: 100%;
 }
@@ -201,6 +201,7 @@ footer{
     margin-left: 0 !important;
 }
 
+/* formattazione colonne informazioni */
 .info{
     width: 20%;
     font-size: 15px;
