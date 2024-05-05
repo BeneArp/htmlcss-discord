@@ -163,6 +163,25 @@ section h2{
     background-color:rgb(246 246 246);
 }
 
+.wave{
+    height: 160px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: 78px;
+}
+
+.wave-1hkxOo{
+    fill: rgb(246 246 246);
+    height: 100%;
+    width: 100%;
+
+}
+
+#padding{
+    padding-top: 40px;
+}
+
 /* formattazione quarta sezione */
 #download{
     text-align: center;
