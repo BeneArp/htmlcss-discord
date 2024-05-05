@@ -16,7 +16,7 @@ header{
 /* formattazione corpo pagina */
 #corpo{
     width: 50%;
-    margin: 230px auto;
+    margin: 230px auto 80px;
     display: flex;
     gap: 30px;
     align-items: flex-start;
