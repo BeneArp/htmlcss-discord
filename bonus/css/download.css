@@ -16,14 +16,12 @@ header{
 /* formattazione corpo pagina */
 #corpo{
     width: 50%;
-    margin: 180px auto;
+    margin: 230px auto;
     display: flex;
     gap: 30px;
     align-items: flex-start;
     flex-wrap: nowrap;
-    /* debug */
-    height: 1800px;
-    border: 2px solid red;
+    height: 1500px;
 
 }
 
@@ -33,11 +31,9 @@ header{
 
 .colonna{
     width: 50%;
-    /* debug */
-    height: 1600px;
 }
 
-.sistema{
+.cella{
     width: 100%;
     font-size: 25px;
     background-color: #f6f6f6;
@@ -54,12 +50,11 @@ header{
 
 .dettagli{
     width: 100%;
-    /* debug */
-    height: 200px;
-    background-color: blue;
+    font-size: 18px;
+    padding: 10px 40px 40px;
 }
 
-.sistema h2{
+.colonna h2{
     display: block;
     padding-top: 20px;
     margin-bottom: 10px;
@@ -70,7 +65,11 @@ header{
     margin: 40px auto 0;
 }
 
-.sistema button{
+.colonna button{
     font-size: 20px;
     margin: 0;
+}
+
+.colonna p{
+    margin-bottom: 20px;
 }
