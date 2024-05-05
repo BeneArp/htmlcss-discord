@@ -2,7 +2,7 @@
 header{
     background-color: #23272a;
     color: white;
-    height: 700px;
+    height: 670px;
 }
 
 .black_nav{
@@ -13,6 +13,30 @@ header{
     fill: #23272a;
 }
 
+
+#panoramica_download h1{
+    font-size: 50px;
+    text-decoration: solid;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+#panoramica_download .description{
+    max-width: 20%;
+}
+
+#panoramica_download p{
+    margin-bottom: 20px;
+}
+
+#panoramica_download span{
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+#panoramica_download img{
+    max-width: 85%;
+}
 /* formattazione corpo pagina */
 #corpo{
     width: 50%;
