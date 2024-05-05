@@ -1,3 +1,4 @@
+/* formattazione header */
 header{
     background-color: #23272a;
     color: white;
@@ -10,4 +11,66 @@ header{
 
 #wave_black{
     fill: #23272a;
+}
+
+/* formattazione corpo pagina */
+#corpo{
+    width: 50%;
+    margin: 180px auto;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    /* debug */
+    height: 1800px;
+    border: 2px solid red;
+
+}
+
+#dx{
+    align-self: flex-end;
+}
+
+.colonna{
+    width: 50%;
+    /* debug */
+    height: 1600px;
+}
+
+.sistema{
+    width: 100%;
+    font-size: 25px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 15px 0;
+}
+
+.sistema div{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.dettagli{
+    width: 100%;
+    /* debug */
+    height: 200px;
+    background-color: blue;
+}
+
+.sistema h2{
+    display: block;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sistema img{
+    display: block;
+    margin: 40px auto;
+}
+
+.sistema button{
+    font-size: 20px;
+    margin: 0;
 }
