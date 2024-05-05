@@ -2,17 +2,19 @@
 header{
     background-color: #23272a;
     color: white;
-    height: 670px;
 }
 
 .black_nav{
     background-color: #23272a !important;
 }
 
+
 #wave_black{
     fill: #23272a;
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 200px;
 }
-
 
 #panoramica_download h1{
     font-size: 50px;
@@ -40,7 +42,7 @@ header{
 /* formattazione corpo pagina */
 #corpo{
     width: 50%;
-    margin: 230px auto 80px;
+    margin: 50px auto 80px;
     display: flex;
     gap: 30px;
     align-items: flex-start;
@@ -87,6 +89,7 @@ header{
 .sistema img{
     display: block;
     margin: 40px auto 0;
+    max-width: 100%;
 }
 
 .colonna button{
