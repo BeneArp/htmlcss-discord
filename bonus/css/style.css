@@ -107,20 +107,18 @@ header section{
 
 .bottone_white:hover{
     color:#5865f2;
-    text-decoration: none;
 }
 
 .bottone_black:hover{
-    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.829);
-}
-
-.bottone_blue:hover{
-    text-decoration: none;
 }
 
 .registrazione:hover{
     background-color: #7881e9;
+}
+
+.bottone a{
+    text-decoration: none;
 }
 
 /* freccia download */

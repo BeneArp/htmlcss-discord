@@ -219,7 +219,6 @@ footer{
 
 footer section{
     margin-top: 20px !important;
-    height: 80px;
     /* flexbox */
     display: flex;
     justify-content: space-between;
