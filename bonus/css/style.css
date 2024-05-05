@@ -161,6 +161,7 @@ section h2{
 
 .bg_grey{
     background-color:rgb(246 246 246);
+    padding-top: 40px;
 }
 
 .wave{
@@ -171,15 +172,16 @@ section h2{
     top: 78px;
 }
 
+.wave_bottom{
+    transform: rotate(180deg);
+    top: -78px
+}
+
 .wave-1hkxOo{
     fill: rgb(246 246 246);
     height: 100%;
     width: 100%;
 
-}
-
-#padding{
-    padding-top: 40px;
 }
 
 /* formattazione quarta sezione */
