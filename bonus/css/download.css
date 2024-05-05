@@ -1,0 +1,13 @@
+header{
+    background-color: #23272a;
+    color: white;
+    height: 700px;
+}
+
+.black_nav{
+    background-color: #23272a !important;
+}
+
+#wave_black{
+    fill: #23272a;
+}
