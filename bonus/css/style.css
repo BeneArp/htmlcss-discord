@@ -53,6 +53,12 @@ a:hover{
     flex-wrap: nowrap;
 }
 
+#voci ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
 #main_header{
     padding: 50px 0 100px;
     background-image: url('../img/jumbo.png');
